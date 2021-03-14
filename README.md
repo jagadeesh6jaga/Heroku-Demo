@@ -1,4 +1,4 @@
-# Heroku-Demo
+# salary prediction with Heroku-Deployment 
 
 
 this is the small demo about how to deploy machine learning model in heroku .
@@ -7,9 +7,9 @@ this is the small demo about how to deploy machine learning model in heroku .
 
 <h3> requirements.txt </h3>
 
-in this file you need to specify libraries  which you need to execute this model .
+in this file you need to specify libraries  which help  to execute this model .
 
-here i write below libraries 
+here i mentioned  below libraries 
 
 Flask==1.1.1
 gunicorn==19.9.0
@@ -29,7 +29,7 @@ pandas>=0.19
 this file contains  :  web: gunicorn app:app
 
 
-this is usefull to specify which file heroku should execute first . 
+this is usefull to specify which file in  heroku should execute first . 
 
 in my case app.py so i specified first app , and second app indicates the name of the flask .
 
